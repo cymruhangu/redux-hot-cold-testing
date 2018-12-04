@@ -15,3 +15,4 @@ it('Renders some feedback', () => {
     let wrapper = shallow(<Feedback feedback={TEST_FEEDBACK} />);
     expect(wrapper.contains(TEST_FEEDBACK)).toEqual(true);
 });
+
